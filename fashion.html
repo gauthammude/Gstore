@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Page</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="fresh.css" />
+  <link rel="stylesheet" href="fashion.css" />
+</head>
+<body>
+    <div id="top">
+   <div class="hamburger-container">
+  <i class="fas fa-bars" id="hamburger-icon"></i>
+  <div class="hamburger-menu" id="hamburger-menu">
+    <a href="signin.html">Sign In</a>
+    <a href="account.html">Your Account</a>
+    <a href="orders.html">Orders</a>
+    <a href="help.html">Help</a>
+  </div>
+</div>
+    <img id="img" src="logo.png" alt="logo" />
+
+    <div class="loc">
+      Location <i class="fas fa-map-marker-alt"></i>
+    </div>
+    
+    <div class="search">
+      <div class="all">
+        All <i class="fas fa-caret-down"></i>
+      </div>
+      <input id="search" type="search" placeholder="Search..." />
+      <div class="glass"><i class="fas fa-search" style="font-size: 24px;"></i>
+    </div>
+    </div>
+      <div class="Language">
+      <span class="icp-nav-flag icp-nav-flag-in icp-nav-flag-lop" role="img" aria-label="India"></span>
+      <div class="lang">Eng</div>
+      <button class="nav-flyout-button nav-icon nav-arrow" aria-label="Expand to Change Language or Country" tabindex="0" style="visibility: visible;" aria-expanded="false"></button>
+      </div>
+
+       <a href="" class="login">Login</a>
+      <div class="login">
+      <a href="returns.html" class="cart" style="color: whitesmoke; text-decoration: none;">Return</a>&
+      <a href="returns.html" class="cart" style="color: whitesmoke; text-decoration: none;">Orders</a>
+      </div>
+      <a href="cart.html" class="cart" style="color: whitesmoke; text-decoration: none;">
+  <i class="fas fa-shopping-cart cart-symbol"></i>
+  Cart
+</a>
+  
+  </div> 
+  </div>
+
+
+
+
+  <div class="bar">
+    <a href="index.html" class="options">Home</a>
+    <a href="fresh.html" class="options">Fresh</a>
+    <a href="today.html" class="options">Today's deal</a>
+    <a href="grocery.html" class="options">Grocery</a>
+    <a href="offers.html" class="options">Offers</a>
+    <a href="electronics.html" class="options">Electronic</a>
+    <a href="fashion.html" class="options">Fashion</a>
+    <a href="food.html" class="options">Food</a>
+    <a href="books.html" class="options">Books</a>
+    <a href="medicens.html" class="options">Medicens</a>
+  </div>
+
+
+  <div class="slider">
+    <div class="slides" id="slides">
+      <div class="slide"><img src="img1.jpg" alt="Slide 1"></div>
+      <div class="slide"><img src="img2.webp" alt="Slide 2"></div>
+      <div class="slide"><img src="img3.jpg" alt="Slide 3"></div>
+    </div>
+    <button class="prev" onclick="moveSlide(-1)">❮</button>
+    <button class="next" onclick="moveSlide(1)">❯</button>
+  </div>
+
+  <div class="main">
+    <div class="container">
+      <h2 class="discount-label">40% OFF</h2>
+      <div class="box1"><img src="img1.jpg" alt="Product 1" /></div>
+      <div class="box1"><img src="img1.jpg" alt="Product 2" /></div>
+      <div class="box1"><img src="img1.jpg" alt="Product 3" /></div>
+      <div class="box1"><img src="img1.jpg" alt="Product 4" /></div>
+      <div class="product-info">
+        <h3>Premium Running Shoes</h3>
+        <p>Durable, stylish, and built for comfort during every run.</p>
+        <div class="price">$89.99</div>
+        <button class="add-to-cart buy-btn" data-name="Comfortable and lightweight sneakers for everyday wear" data-price="$$79.99" data-image="img1.jpg">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="discount-label">40% OFF</h2>
+      <div class="box1"><img src="img1.jpg" alt="Product 1" /></div>
+      <div class="box1"><img src="img1.jpg" alt="Product 2" /></div>
+      <div class="box1"><img src="img1.jpg" alt="Product 3" /></div>
+      <div class="box1"><img src="img1.jpg" alt="Product 4" /></div>
+      <div class="product-info">
+        <h3>Stylish Casual Sneakers</h3>
+        <p>Comfortable and lightweight sneakers for everyday wear.</p>
+        <div class="price">$79.99</div>
+        <button class="add-to-cart buy-btn" data-name="Comfortable and lightweight sneakers for everyday wear" data-price="$$79.99" data-image="img1.jpg">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="discount-label">40% OFF</h2>
+      <div class="box1"><img src="img1.jpg" alt="Product 1" /></div>
+      <div class="box1"><img src="img1.jpg" alt="Product 2" /></div>
+      <div class="box1"><img src="img1.jpg" alt="Product 3" /></div>
+      <div class="box1"><img src="img1.jpg" alt="Product 4" /></div>
+      <div class="product-info">
+        <h3>All-Terrain Trainers</h3>
+        <p>Made for tough trails and outdoor adventures.</p>
+        <div class="price">$99.99</div>
+        <button class="add-to-cart buy-btn" data-name="Comfortable and lightweight sneakers for everyday wear" data-price="$$79.99" data-image="img1.jpg">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="backtotop">
+  <button class="backtofashion">Back To Top</button>
+</div>
+
+
+<div class="footer">
+  <div class="foot1"><h3>Get to Know Us</h3>
+  
+  <a href="" class="foot">About G Store</a>
+  <a href="" class="foot">Careers</a>
+  <a href="" class="foot">Press Releases</a>
+  </div>
+  <div class="foot1"><h3>Connect with Us</h3>
+  <a href="" class="foot">Facebook</a>
+  <a href="" class="foot">Twitter</a>
+  <a href="" class="foot">Instagram</a>
+  </div>
+  <div class="foot1"><h3>
+  Make Money with Us</h3>
+  <a href="" class="foot">Sell on G Stores</a>
+  <a href="" class="foot">Sell under G Accelerator</a>
+  <a href="" class="foot">Supply to G  Stores</a>
+  <a href="" class="foot">Become an Affiliate</a>
+  </div>
+  <div class="foot1"><h3>Let Us Help You</h3>
+  <a href="" class="foot">Your Account</a>
+  <a href="" class="foot">Returns Centre</a>
+  <a href="" class="foot">Recalls and Product Safety Alerts</a>
+  <a href="" class="foot">Help</a>
+  </div>
+</div>
+
+
+<footer class="foo">
+<div class="foo-">
+  GG
+  <span class="icp-nav-flag icp-nav-flag-in icp-nav-flag-lop" role="img" aria-label="India"></span>
+      <div class="lang">Eng</div>
+      <button class="nav-flyout-button nav-icon nav-arrow" aria-label="Expand to Change Language or Country" tabindex="0" style="visibility: visible;" aria-expanded="false"></button>
+      </div>
+</div>
+</footer>
+<div class="column-items">
+  <span>Conditions of Use & Sale</span>
+<span>Privacy Notice</span>
+<span>Interest-Based Ads</span>
+<span>G STORES.com</span>
+</div>
+
+</body>
+<script src="fashion.js"></script>
+<script src="a.js"></script>
+</html>
